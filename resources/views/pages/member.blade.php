@@ -14,10 +14,11 @@
     		foreach ($members as $member) {
     			if ($member->link() == $name && $member->verified) { ?>
     			<h2> {{$member->name}} </h2>
-    			<img style="max-height: 250px;" src="{{$member->getprofpicurl1()}}" onmouseover="this.src='{{$member->getprofpicurl2()}}'" onmouseout="this.src='{{$member->getprofpicurl1()}}'"> </img>
-    			<h3> NIM : {{$member->nim}} </h3>
-    			<h3> Prodi : {{$member->prodi}} </h3>
-    			<h3> "{{$member->bio}}" </h3>
+    			<img style="max-height: 250px;" src="{{$member->getprofpicurl1()}}"> </img>
+    			<img style="max-height: 250px;" src="{{$member->getprofpicurl2()}}"> </img>
+    			<p> </p>
+    			<p> <b> {{$member->nim}} </b> - {{$member->prodi}} </p>
+    			<p> "{{$member->bio}}" </p>
     	<?php
     			}
     		}
