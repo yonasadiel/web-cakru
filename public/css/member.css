@@ -1,0 +1,21 @@
+.thumbnail > a {
+    text-decoration:none;
+}
+.gambar1 {
+    position: relative;
+    display: inline-block;
+}
+.gambar1 .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+	display: inline;
+	opacity:0;
+	transition: opacity 0.2s ease-in;
+}
+.gambar1:hover .img-top {
+    opacity:1;
+	transition: opacity 0.2s ease-in;
+}
