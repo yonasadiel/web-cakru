@@ -9,8 +9,8 @@ jQuery.ScrollTo and jQuery.LocalScroll by Ariel Flesler: http://flesler.blogspot
 Icons fom http://www.komodomedia.com/
 */
 
-*{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;box-sizing:initial;-webkit-box-sizing:initial;}
-body{background-color:#fafafa;color:#646464;font:12px/16px Cabin, Helvetica, Arial, sans-serif;}
+*{border:0;margin:0;padding:0;vertical-align:baseline;box-sizing:initial;-webkit-box-sizing:initial;}
+main{background-color:#fafafa;color:#646464;font:12px/16px Cabin, Helvetica, Arial, sans-serif;}
 ol,ul{list-style:none;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;}
 a img{border:none;}
 a{color:#000;text-decoration:none;}

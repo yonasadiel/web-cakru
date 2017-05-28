@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('style')
-<!--link href='http://fonts.googleapis.com/css?family=Allura|Cabin' rel='stylesheet' type='text/css' /-->
+<link href='http://fonts.googleapis.com/css?family=Allura|Cabin' rel='stylesheet' type='text/css' />
 <link type="text/css" rel="stylesheet" href="{{ URL::asset('public/css/gallery.css') }}" media="screen" />
 @append
 
