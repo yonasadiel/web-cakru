@@ -9,7 +9,7 @@ Requirement:
 
 Howto:
 1. Download the source code, edit the /config/database.php to match your sql configuration.
-2. Edit the ./.env file to match sql configuration.
+2. Make the environment file ./.env file to match sql configuration. Look at .env.example for format. (Or let the laravel make it)
 3. Make the table with this code:
 ```sql
 CREATE TABLE `cakru_member` (
