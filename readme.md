@@ -25,6 +25,10 @@ CREATE TABLE `cakru_member` (
 ```
 4. You are good to go (hopefully).
 
+## Maintenance
+
+Register page always create a new member at Model Member. But, verified column always set to zero (not verified). Open the /verif to verifying a member. You can add some password or change the route in apps/Http/routes.php. The uploaded image should be jpg too. I recomend to edit it manually (photoshop or some fine program) to crop and compress it to 500x500px with quality of 8. It should be under 100kB per photo.
+
 ## Credit
 
 ### Front-end
